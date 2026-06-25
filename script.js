@@ -20,7 +20,7 @@ function start() {
     document.getElementById('music').play();
     
     // 3. Écrire le nom lettre par lettre
-    typeWriter("title", "Joyeux Anniversaire Nehemielle 😭✨❤️", 150, function() {
+    typeWriter("title", `Joyeux Anniversaire Nehemielle 🥳❤️ Minuit passé, officiellement ton anniversaire. 🎂 🥰 Je te souhaite que cette année t'apporte plus de calme que de stress, et qu'elle commence avec un sourire. Même si tu doutais tout à l'heure, t'es une warrior. 👩‍🎤`, 50, function() {
         // 4. Une fois le nom écrit, afficher la phrase douce
         document.getElementById('message-douce').style.display = 'block';
     });
